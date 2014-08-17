@@ -1,0 +1,33 @@
+<p>red:</p>
+<div class="hei20" style='background-color: red;
+     width: {{red*100}}%; '></div>
+
+<p>green:</p>
+<div class="hei20" style='background-color: green;
+     width: {{green*100}}%; '></div>
+
+<p>blue:</p>
+<div class="hei20" style='background-color: blue;
+     width: {{blue*100}}%;'></div>
+
+<p><strong>result:</strong></p>
+<div class="hei20" style='background-color:
+  rgb({{Math.round(red   * 255)}},
+      {{Math.round(green * 255)}},
+      {{Math.round(blue  * 255)}})'>
+</div>
+<style>
+    .hei20 {
+        height:20px;
+    }
+</style>
+
+<script>
+    component.exports = {
+        data: {
+            red: 0.45,
+            green: 0.61,
+            blue: 0.2
+        }
+    };
+</script>
