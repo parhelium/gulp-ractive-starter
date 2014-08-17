@@ -9,7 +9,7 @@
   "browserify": {
     "transform": [
       "browserify-shim",
-      "ractivate"
+      "ractify"
     ]
   },
   "browserify-shim": {
@@ -39,13 +39,13 @@
     "gulp-open": "~0.2.8",
     "gulp-util": "~2.2.14",
     "pretty-hrtime": "~0.2.1",
-    "ractivate": "^0.1.0",
     "vinyl-source-stream": "~0.1.1",
     "watchify": "~0.10.1",
-    "minifyify": "^4.0.4"
+    "minifyify": "^4.0.4",
+    "ractify": "^0.5.0"
   },
   "dependencies": {
     "jquery": "~2.1.0",
-    "ractive": "^0.4.0"
+    "ractive": "0.5.5"
   }
 }
