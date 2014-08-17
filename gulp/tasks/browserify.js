@@ -35,7 +35,7 @@ gulp.task('browserify', function() {
 			// Report compile errors
 			.on('error', handleErrors)
 			// Use vinyl-source-stream to make the
-			// stream gulp compatible. Specifiy the
+			// stream gulp compatible. Specify the
 			// desired output filename here.
 			.pipe(source('bundle.js'))
 			// Specify the output destination
