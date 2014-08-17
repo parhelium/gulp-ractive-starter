@@ -11,13 +11,8 @@ var Ractive = require('ractive');
 
 
 var Clock = Ractive.extend(require('../templates/Clock.ract'));
-new Clock({
-    el: '#output',
-    append:true
-});
-
-new Ractive({
-    template:"OKO",
-    el:"#output",
+var Expressions = Ractive.extend(require('../templates/Expressions.ract'));
+new Expressions({
+    el:"#expressions",
     append:true
 })
