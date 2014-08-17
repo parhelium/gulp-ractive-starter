@@ -30,6 +30,7 @@ gulp.task('browserify', function() {
 		bundleLogger.start();
 
 		return bundler
+            .plugin('minifyify', {map: 'bundle.map.json', output:'build/bundle.map.json'})
 			.bundle({debug: true})
 			// Report compile errors
 			.on('error', handleErrors)

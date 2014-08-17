@@ -41,7 +41,8 @@
     "pretty-hrtime": "~0.2.1",
     "ractivate": "^0.1.0",
     "vinyl-source-stream": "~0.1.1",
-    "watchify": "~0.10.1"
+    "watchify": "~0.10.1",
+    "minifyify": "^4.0.4"
   },
   "dependencies": {
     "jquery": "~2.1.0",
