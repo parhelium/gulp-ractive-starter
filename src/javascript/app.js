@@ -1,17 +1,7 @@
-var Ractive = require('ractive');
+var Ractive     = require('ractive');
+var Clock       = Ractive.extend(require('../components/Clock.ract'));
+var Expressions = Ractive.extend(require('../components/Expressions.ract'));
 
-//var ractive = new Ractive({
-//    el: '#output',
-//    template: require('../templates/Clock.ract').template,
-////    template: require('../templates/template.html'),
-//    data: {
-//        name: 'World'
-//    }
-//});
-
-
-var Clock = Ractive.extend(require('../templates/Clock.ract'));
-var Expressions = Ractive.extend(require('../templates/Expressions.ract'));
 new Expressions({
     el:"#expressions",
     append:true
