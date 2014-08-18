@@ -9,7 +9,7 @@ Includes the following tools, tasks, and workflows:
 
 - Ractive js
 - Compilation of Ractive's Components with Ractify
-- Bundled version is minified with minifyify lib
+- Bundled version is minified with minifyify lib, source maps added
 - Browserify (with browserify-shim)
 - Watchify (caching version of browserify for super fast rebuilds)
 - jQuery (from npm)
